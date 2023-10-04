@@ -1,0 +1,649 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #111111;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 9px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+}
+
+a:hover {
+    color: #CDAA7D;
+    border-bottom: 1px solid #CDAA7D;
+}
+
+.first_screen {
+    text-align: center;
+    padding-top: 30px;
+    height: 1038px;
+    background-image: url(../img/bgc.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav_panel_one {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav_panel_one_masters {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .nav_panel_two {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.hr-line {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #fff;
+}
+
+.logo_text {
+    padding-top: 180px;
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+}
+
+.text_content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 27px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.service_img {
+    width: 400px;
+    height: 386px;
+    padding: 20px;
+}
+
+.cosmetics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 150px;
+}
+
+.cosmetics_img {
+    /* width: 69px; */
+    height: 108px;
+}
+
+.our_work {
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.work_text {
+    color: #fff;
+    font-size: 48px;
+    padding-top: 120px;
+}
+
+.nav_work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+}
+
+.work_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.work_image {
+    padding: 10px;
+    width: 416px;
+    height: 416px;
+}
+
+.work_image:hover {
+    border: 1px solid #CDAA7D;
+    cursor: pointer;
+}
+
+.footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.footer_img {
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.inst_img {
+    width: 36px;
+    height: 36px;
+}
+
+.foot_text {
+    color: #fff;
+    font-size: 18px;
+}
+
+.author {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* 2 страница - Мастера */
+.nav_panel_masters {
+    padding-top: 30px;
+}
+
+.masters {
+    text-align: center;
+}
+
+.text_masters {
+    color: #fff;
+    font-size: 48px;
+}
+
+.masters_image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 150px;
+}
+
+.masters_img {
+    width: 416px;
+    height: 595px;
+}
+
+/*  */
+
+/* 3 страница - Цены */
+.price_text {
+    text-align: center;
+}
+
+.price_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.price_img {
+    width: 500px;
+    height: 480px;
+}
+
+.price_service {
+    /* height: 150px; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+table {
+
+    color: #fff;
+    width: 500px;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.cena {
+    text-align: right;
+}
+
+
+/* 4 страница - Контакты */
+
+.contacts_info {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info_map {
+    padding-bottom: 40px;
+}
+
+/*  */
+/* Адаптация на устройства */
+
+@media screen and (max-width: 480px) {
+
+    body {
+        width: 500px;
+    }
+
+    .logo {
+        display: none
+    }
+
+    .nav_panel_one {
+        padding-left: 0%;
+        padding-right: 0%;
+        display: block;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+    }
+
+    .logo_text {
+        padding-top: 180px;
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .text_content {
+        /* padding-top: 100px; */
+        padding-bottom: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        font-size: 27px;
+    }
+
+    .cosmetics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* padding-left: 15%; */
+        /* padding-right: 15%; */
+        padding-top: 150px;
+    }
+
+    .cosmetics_img {
+        /* width: 69px; */
+        height: 50px;
+    }
+
+    .nav_work {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+    }
+
+    .work_image {
+        padding: 10px;
+        width: 229px;
+        height: 229px;
+    }
+
+    .work_img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .footer {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    /* Страница мастера */
+
+    .nav_panel_one_masters {
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+        display: block;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+    }
+
+    .masters {
+        padding-top: 100px;
+    }
+
+    .masters_image {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .masters_img {
+        width: 400px;
+        height: auto;
+    }
+
+    /* Страница Цены */
+
+    .price_img {
+        width: 400px;
+        height: 400px;
+    }
+
+    table {
+        color: #fff;
+        width: 410px;
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+    /* Страница Контакты */
+
+    .contacts_info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: block;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+    }
+
+    .informations {
+
+        /* width: 100%; */
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        width: 70%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* margin-left: 15%; */
+        /* margin-right: 15%; */
+    }
+
+}
+
+@media (max-width: 769px) and (min-width: 481px) {
+    .nav_panel_one {
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .hr-line {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 40px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: #fff;
+    }
+
+    .logo_text {
+        padding-top: 180px;
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .text_content {
+        /* padding-top: 100px; */
+        padding-bottom: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        font-size: 27px;
+    }
+
+    .service {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .service_img {
+        width: 323px;
+        height: 323px;
+    }
+
+    .cosmetics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 150px;
+    }
+
+    .nav_work {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+
+    .work_img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .work_image {
+        padding: 10px;
+        width: 340px;
+        height: 340px;
+    }
+
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* 2 страниа */
+
+    .masters_img {
+        width: 300px;
+        height: auto;
+    }
+
+    /* 3 страница */
+
+    .price_img {
+        width: 400px;
+        height: 400px;
+    }
+
+    table {
+        color: #fff;
+        width: 300px;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* 4 Страница */
+
+    .contacts_info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: block;
+        /* flex-wrap: wrap;
+        justify-content: space-around; */
+    }
+
+    .informations {
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        
+    }
+
+    .info_map {
+        padding-bottom: 40px;
+        /* padding-right: 20px; */
+        margin-left: 110px;
+    }
+
+
+
+}
+
+@media (max-width: 1025px) and (min-width: 1023px) {
+    .work_image {
+        padding: 10px;
+        width: 338px;
+        height: 338px;
+    }
+
+    .nav_work {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 50px;
+    }
+
+    .service {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .text_content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        font-size: 27px;
+    }
+
+    /* 2 страниа */
+
+    .masters_img {
+        width: 300px;
+        height: auto;
+    }
+
+    /* 3 страница */
+
+    .price_img {
+        width: 400px;
+        height: 400px;
+    }
+}
